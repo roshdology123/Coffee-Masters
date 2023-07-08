@@ -35,7 +35,7 @@ fun Offer(title: String, description: String = "") {
         ) {
             Text(
                 text = title,
-                style = MaterialTheme.typography.h5,
+                style = MaterialTheme.typography.bodyLarge,
                 modifier = Modifier
                     .padding(16.dp)
                     .background(Color.Cyan)
@@ -43,7 +43,7 @@ fun Offer(title: String, description: String = "") {
             )
             Text(
                 text = description,
-                style = MaterialTheme.typography.h6,
+                style = MaterialTheme.typography.bodyLarge,
                 modifier = Modifier
                     .padding(16.dp)
                     .background(Color.Cyan)
